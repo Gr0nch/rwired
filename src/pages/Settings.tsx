@@ -310,7 +310,7 @@ export function SettingsPage() {
           </Button>
           <Button
             className="w-full md:w-auto"
-            theme="purple"
+            theme="red"
             onClick={saveChanges}
           >
             {t("settings.save")}
