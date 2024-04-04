@@ -148,7 +148,7 @@ export function SettingsPage() {
   );
 
   useEffect(() => {
-    setPreviewTheme(activeTheme ?? "default");
+    setPreviewTheme(activeTheme ?? "red");
   }, [setPreviewTheme, activeTheme]);
 
   useEffect(() => {
@@ -160,7 +160,7 @@ export function SettingsPage() {
 
   const setThemeWithPreview = useCallback(
     (theme: string) => {
-      state.theme.set(theme === "default" ? null : theme);
+      state.theme.set(theme === "red" ? null : theme);
       setPreviewTheme(theme);
     },
     [state.theme, setPreviewTheme],
@@ -274,8 +274,8 @@ export function SettingsPage() {
         </div>
         <div id="settings-appearance" className="mt-48">
           <ThemePart
-            active={previewTheme ?? "default"}
-            inUse={activeTheme ?? "default"}
+            active={previewTheme ?? "red"}
+            inUse={activeTheme ?? "red"}
             setTheme={setThemeWithPreview}
           />
         </div>
