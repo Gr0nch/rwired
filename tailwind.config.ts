@@ -16,7 +16,7 @@ const config: Config = {
 
       /* fonts */
       fontFamily: {
-        "main": "'Micro 5'", // "main": "'Open Sans'",
+        "main": "''DM Sans''", // "main": "'Open Sans'",
       },
 
       /* animations */
