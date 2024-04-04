@@ -150,9 +150,9 @@
     },
     "titles": {
       "day": {
-        "default": "What do you want this afternoon",
-        "extra": ["Have you been jerking off to mlp again? Gross. I can smell it."],
-        "extra": ["Welcome to The-Wired"],
+        "default": "She is ballin, she is fading.",
+        "extra": ["Do you have... rotting meat in your bathroom?!? That's so Gross. I can smell it..."],
+        "extra": ["Welcome to the-wired, cazn i take your order?"],
         "extra": [" /ᐠ>ヮ<ᐟ\\ฅ"],
         "extra": ["No matter where you go, everyone's connected."]
       },
@@ -189,11 +189,11 @@
       "offline": "Check your internet connection, i think your shit is buggin"
     },
     "menu": {
-      "about": "bogos binted",
-      "donation": "ignore",
+      "about": "DIE AHEAD",
+      "donation": "donate to the og commit",
       "logout": "Log deez",
       "register": "Sync to sudo-cloud database",
-      "settings": "Settin my balls on the ground",
+      "settings": "Setting deez",
       "support": "Sus support (they cant help you <3)"
     }
   },
