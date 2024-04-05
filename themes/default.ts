@@ -87,7 +87,7 @@ export const defaultTheme = {
   extend: {
     colors: {
       themePreview: {
-        primary: tokens.blue.c200,
+        primary: tokens.red.c300,
         secondary: tokens.shade.c50,
         ghost: tokens.white,
       },
