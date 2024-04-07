@@ -65,11 +65,10 @@ export function ExtensionBanner(props: {
   const currentLocation = useBannerStore((s) => s.location);
   const loc = props.location ?? null;
   const { pathname } = useLocation();
-  const isEligible = !(
+  const isEligible =
     /CrOS/.test(navigator.userAgent) ||
     /TV/.test(navigator.userAgent) ||
-    /iPhone|iPad|iPod/i.test(navigator.userAgent)
-  );
+    /iPhone|iPad|iPod/i.test(navigator.userAgent);
 
   useEffect(() => {
     if (loc) {
@@ -88,8 +87,8 @@ export function ExtensionBanner(props: {
   if (currentLocation !== loc || pathname === "/onboarding/extension")
     return null;
 
-  // Show the banner with a 36.5% chance or not if users don't meet requirements
-  if (isEligible && Math.random() < 0.365) {
+  // Show the banner with a 36.5% chance or not if users dont meet requirements
+  if (!isEligible && Math.random() < 0.365) {
     let bannerText = "";
     switch (props.extensionState) {
       case "noperms":
